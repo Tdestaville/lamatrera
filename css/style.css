@@ -1,0 +1,456 @@
+@media only screen and (min-width: 360px) and (max-width: 928px) {
+* {
+    margin:0px;
+    padding: 0px;
+}
+.navegacion {
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a { 
+    background-color: #d1ccc0;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+    margin-bottom: 2px;
+}
+.menu li a:hover {
+    background-color: #235731;
+}
+.menu > li {
+    display: inline-block;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.logo img {
+    width: 70px;
+    margin-right: 15px;
+ }
+.logo1 {
+    padding-top: 15px;
+    margin-left: 100px;
+    display: none;
+}
+h1 {
+    font-size: 260%;
+    white-space: nowrap;
+}
+h2 {
+    font-size: 90%;
+    white-space: nowrap;
+}
+.flex-container div {
+    text-align: center;    
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #d1ccc0;
+    font-family: 'Cinzel', serif;
+    color: #235731;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.fondo{
+    margin-top: 12px;
+}
+.fondo img {
+    width: 375px;
+}
+#fotos {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+footer {
+    background: #d1ccc0;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-top: 100px
+}
+.contactanos {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.local {
+    margin-top: 110px;
+    margin-left: 30px;
+}
+legend {
+    border: 1px solid black;
+    margin-right: 110px;
+}
+.parrafo {
+    font-family: 'Cinzel', serif;
+    font-size: 15px;
+    text-align: center;
+    color: #235731;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.producto {
+    font-family: 'Cinzel', serif;
+    color: #235731;
+    background-color: #d1ccc0;
+    text-align: center;
+    text-decoration-line: underline;
+}
+.delantal img {
+    width: 220px;
+}
+.imgdelantal {
+    display: none;
+}
+.grid {
+    display: grid;
+    margin-right: 60px;
+    grid-template-columns: repeat(2, 175px);
+    grid-template-rows: repeat(5, 200px);
+    justify-content: center;
+    align-items: center;
+}
+.grid img {
+    width: 220px;
+}
+.grid-indumentaria {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 50px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(9,300px);
+    justify-content: center;
+}
+.grid-indumentaria img {
+    width: 150px;
+}
+.grid-unisex {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(5,300px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-unisex img{
+    width: 150px;
+}
+
+.grid-mates {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(7,250px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-materas {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(3,200px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-materas img {
+    width: 220px;
+}
+.grid-vaqueta {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(4,250px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-accesorios{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(14,200px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-accesorios img {
+    width: 220px;
+}
+.grid-carbono {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(5,200px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-carbono img {
+    width: 220px;
+}
+.grid-inox {
+    display: grid;
+    margin-top: 20px;
+    grid-template-rows: repeat(2, 200px);
+    justify-content: center;
+    justify-items: center;
+    row-gap: 50px;
+}
+.grid-agendas {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(2,175px);
+    grid-template-rows: repeat(3, 200px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-agendas img {
+    width: 220px;
+}
+.grid-contacto {
+    display: grid;
+    margin-top: 40px;
+    grid-template-rows: repeat(2,200px) ;
+    justify-content: center;
+    align-items: center;
+}
+.grid-potrencue {
+    display: grid;
+    margin-top: 20px;
+    grid-template-rows: repeat (2,200px);
+    justify-content: center;
+    justify-items: center;
+    row-gap: 50px;
+}
+.delantal {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 175px;
+    justify-content: center;
+    justify-items: center;
+}
+.delantal ul li {
+    list-style: none;
+}
+}
+
+
+
+
+@media only screen and (min-width: 929px) {
+
+* {
+    margin:0px;
+    padding: 0px;
+}
+.logo {
+    padding-top: 15px;
+    margin-right: 100px;
+}
+.logo1 {
+    padding-top: 15px;
+    margin-left: 100px;
+}
+h1 {
+    font-size: 400%;
+}
+h2 {
+    font-size: 200%;
+}
+.navegacion {
+    letter-spacing: 3px;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 10px;
+}
+.menu li{
+    list-style: none;
+}
+.menu li a { 
+    background-color: #d1ccc0;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    display: block;
+}
+.menu li a:hover {
+    background-color: #235731;
+}
+.menu > li {
+    display: inline-block;
+}
+.menu li ul {
+    display: none;
+    position: absolute;
+}
+.menu li:hover > ul {
+    display: block;
+}
+.flex-container div {
+    text-align: center;
+}
+.flex-container {
+    display: flex;
+    justify-content: center;
+    background-color: #d1ccc0;
+    font-family: 'Cinzel', serif;
+    color: #235731;
+}
+.fondo{
+    margin-top: 12px;
+    background-image: url("../images/fondo1.jpg");
+    background-repeat: unset;
+    background-position: center;
+}
+#fotos {
+    margin-left: 150px;
+    margin-top: 60px;
+}
+footer {
+    background-color: #d1ccc0;
+    padding-left: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    margin-top: 100px;
+}
+.contactanos {
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.local {
+    margin-left: 120px;
+    margin-top: 12px;
+}
+legend {
+    border: 1px solid black;
+    margin-left: 110px;
+}
+.parrafo {
+    font-family: 'Cinzel', serif;
+    font-size: 25px;
+    text-align: center;
+    color: #235731;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.producto {
+    font-family: 'Cinzel', serif;
+    color: #235731;
+    background-color: #d1ccc0;
+    text-align: center;
+    text-decoration-line: underline;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+.delantal{
+    display: flex;
+    justify-content: center;
+}
+.delantal div {
+    margin: 50px;
+}
+.grid {
+    display: grid;
+    margin-right: 60px;
+    grid-template-columns: 300px 300px 300px;
+    grid-template-rows: 300px 300px 300px;
+    justify-content: center;
+    align-items: center;
+}
+.grid-indumentaria {
+    display: grid;
+    margin-top: 20px;
+    margin-left: 50px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(6,500px);
+    justify-content: center;
+}
+.grid-unisex {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,500px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-mates {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(5,300px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-materas {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(2,300px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-vaqueta {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(3,300px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-accesorios{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(9,300px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-carbono {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(2,300px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-inox {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,200px);
+    column-gap: 100px;
+    justify-content: center;
+    justify-items: center;
+}
+.grid-agendas {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,300px);
+    grid-template-rows: repeat(2,300px);
+    justify-content: center;
+    justify-items: center;
+}
+.grid-contacto {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+.grid-potrencue {
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(3,200px);
+    justify-content: center;
+    justify-items: center;
+}
+}
