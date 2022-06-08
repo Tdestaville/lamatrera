@@ -6,8 +6,7 @@
 .navegacion {
     letter-spacing: 3px;
     text-align: center;
-    margin-bottom: 0px;
-    margin-top: 10px;
+    
 }
 .menu li{
     list-style: none;
@@ -29,13 +28,56 @@
 .menu li ul {
     display: none;
     position: absolute;
+    justify-content: right;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
 }
 .menu li:hover > ul {
     display: block;
 }
+
+.menu-hamburguesa{
+    width: 100%;
+}
+#btn-menu {
+    display: none;
+}
+header label {
+    display: block;
+    height: 30px;
+    padding: 5px;
+    background: #d1ccc0;
+    margin-top: 3px;
+}
+header label:hover {
+    cursor: pointer;
+}
+label img {
+    margin-top: 3px;
+}
+.navegacion ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+.navegacion li a {
+    display: block;
+}
+.submenu li { 
+    display: inline-block;
+    margin-left: 170px;
+    width: 48%;
+}
+#btn-menu:checked ~ .navegacion {
+    margin: 0;
+}
 .logo img {
     width: 70px;
     margin-right: 15px;
+    margin-top: 7px;
  }
 .logo1 {
     padding-top: 15px;
@@ -64,6 +106,7 @@ h2 {
 }
 .fondo{
     margin-top: 12px;
+    background-image: url("../images/fondo1.jpg");
 }
 .fondo img {
     width: 375px;
@@ -108,6 +151,27 @@ legend {
     text-align: center;
     text-decoration-line: underline;
 }
+.maquinaescribir {
+    position: relative;
+}
+.maquinaescribir::after {
+    content: "";
+    border-left: 2px solid black;
+    background: #d1ccc0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: maquinaescribir 2s infinite alternate steps(26);
+}
+@keyframes maquinaescribir {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
+}
 .delantal img {
     width: 220px;
 }
@@ -116,9 +180,6 @@ legend {
     -webkit-transform-style: preserve-3d;
     transform: rotateY(180deg);
     transform-style: preserve-3d;
-}
-.wowanimate__animatedanimate__flipInX{
-    animation: infinite;
 }
 .grid {
     display: grid;
@@ -273,7 +334,7 @@ h2 {
     font-size: 200%;
 }
 h3 {
-    font-size: 25px;
+    font-size: 20 px;
     letter-spacing: 3px;
 }
 h4 {
@@ -308,6 +369,9 @@ h4 {
 }
 .menu li:hover > ul {
     display: block;
+}
+.menu-hamburguesa{
+    display: none;
 }
 .flex-container div {
     text-align: center;
@@ -377,6 +441,27 @@ legend {
 }
 .imgdelantal:hover {
     -webkit-transform: scale(1.3);transform:scale(1.3);
+}
+.maquinaescribir {
+    position: relative;
+}
+.maquinaescribir::after {
+    content: "";
+    border-left: 2px solid black; 
+    background: #d1ccc0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    animation: maquinaescribir 2s infinite alternate steps(26);
+}
+@keyframes maquinaescribir {
+    from {
+        width: 100%;
+    }
+    to {
+        width: 0;
+    }
 }
 .grid {
     display: grid;
