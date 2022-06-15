@@ -8,6 +8,18 @@
     text-align: center;
     
 }
+.general {
+    pointer-events: none;
+}
+.submenu {
+    z-index: 1;
+}
+.card-title {
+    text-align: center;
+}
+.card {
+    border: none;
+}
 .menu li{
     list-style: none;
 }
@@ -92,6 +104,10 @@ h2 {
     font-size: 90%;
     white-space: nowrap;
 }
+h3 {
+    font-size: 20px;
+    padding-top: 5px;
+}
 .flex-container div {
     text-align: center;    
 }
@@ -124,17 +140,30 @@ footer {
     margin-top: 100px
 }
 .contactanos {
+    display: inline-block;
     text-align: center;
-    margin-right: 50px;
+    margin-right: -320px;
     margin-left: 50px;
+   
 }
 .local {
     margin-top: 110px;
     margin-left: 30px;
+
+}
+
+.local img {
+  width:200px;
+  margin-top: 350px;
+  margin-left: -120px;
+  
+
+
 }
 legend {
     border: 1px solid black;
-    margin-right: 110px;
+    
+    
 }
 .parrafo {
     font-family: 'Cinzel', serif;
@@ -150,6 +179,8 @@ legend {
     background-color: #d1ccc0;
     text-align: center;
     text-decoration-line: underline;
+    padding: 1px;
+    margin-top: 8px;
 }
 .maquinaescribir {
     position: relative;
@@ -192,6 +223,19 @@ legend {
 .grid img {
     width: 220px;
 }
+.grid-contacto {
+    display: inline-block;
+}
+.delantal ul li {
+    list-style: none;
+}
+.delantal {
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: 175px;
+    justify-content: center;
+    justify-items: center;
+}/*
 .grid-indumentaria {
     display: grid;
     margin-top: 20px;
@@ -253,6 +297,7 @@ legend {
 .grid-accesorios img {
     width: 220px;
 }
+
 .grid-carbono {
     display: grid;
     margin-top: 20px;
@@ -283,13 +328,7 @@ legend {
 .grid-agendas img {
     width: 220px;
 }
-.grid-contacto {
-    display: grid;
-    margin-top: 40px;
-    grid-template-rows: repeat(2,200px) ;
-    justify-content: center;
-    align-items: center;
-}
+
 .grid-potrencue {
     display: grid;
     margin-top: 20px;
@@ -298,16 +337,7 @@ legend {
     justify-items: center;
     row-gap: 50px;
 }
-.delantal {
-    display: grid;
-    margin-top: 10px;
-    grid-template-columns: 175px;
-    justify-content: center;
-    justify-items: center;
-}
-.delantal ul li {
-    list-style: none;
-}
+*/
 }
 
 
@@ -336,16 +366,28 @@ h2 {
 h3 {
     font-size: 20 px;
     letter-spacing: 3px;
+    padding-top: 5px;
 }
 h4 {
    font-size: 20px;
    letter-spacing: 3px;
 }
 .navegacion {
+    position: relative;
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 0px;
     margin-top: 10px;
+}
+.d-flex {
+    width: 15%;
+    margin-left: 85%;
+}
+.btn-outline-success {
+    border: none;
+}
+.btn-outline-success:hover {
+    background-color: white;
 }
 .menu li{
     list-style: none;
@@ -357,11 +399,18 @@ h4 {
     padding: 8px 10px;
     display: block;
 }
+.general {
+    pointer-events: none;
+}
 .menu li a:hover {
     background-color: #235731;
 }
 .menu > li {
     display: inline-block;
+}
+.menu li a {
+    font-family: 'Cinzel', serif;
+    font-size: 13px;
 }
 .menu li ul {
     display: none;
@@ -372,6 +421,9 @@ h4 {
 }
 .menu-hamburguesa{
     display: none;
+}
+.submenu {
+    z-index: 1;
 }
 .flex-container div {
     text-align: center;
@@ -401,18 +453,22 @@ footer {
     text-align: center;
     margin-top: 100px;
 }
+footer p {
+    margin-bottom: 2px;
+}
+.card-text {
+    text-align: center;
+}
 .contactanos {
     text-align: center;
     margin-right: 50px;
     margin-left: 50px;
+    padding-bottom: 5px;
+    border: solid 1px black;
 }
 .local {
     margin-left: 120px;
     margin-top: 12px;
-}
-legend {
-    border: 1px solid black;
-    margin-left: 110px;
 }
 .parrafo {
     font-family: 'Cinzel', serif;
@@ -430,6 +486,7 @@ legend {
     text-decoration-line: underline;
     margin-left: 375px;
     margin-right: 375px;
+    padding: 1px;
 }
 .delantal{
     display: flex;
@@ -463,6 +520,24 @@ legend {
         width: 0;
     }
 }
+.unisex {
+    width: 250px;
+    margin-left: 100px;
+}
+.card-title {
+    text-align: center;
+}
+.card {
+    border: none;
+}
+}
+.grid-contacto {
+    display: grid;
+    margin-top: 40px;
+    grid-template-columns: 400px 400px;
+    justify-content: center;
+}
+/*
 .grid {
     display: grid;
     margin-right: 60px;
@@ -543,12 +618,7 @@ legend {
     justify-content: center;
     justify-items: center;
 }
-.grid-contacto {
-    display: grid;
-    margin-top: 40px;
-    grid-template-columns: 400px 400px;
-    justify-content: center;
-}
+
 .grid-potrencue {
     display: grid;
     margin-top: 20px;
