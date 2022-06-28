@@ -1,4 +1,6 @@
-@media only screen and (min-width: 360px) and (max-width: 928px){
+@import "colores";
+@import "fuentes";
+@media only screen and (min-width: 360px) and (max-width: 928px) {
     * {
             margin:0px;
             padding: 0px;
@@ -37,13 +39,11 @@
         }
         .menu > li {
             display: inline-block;
-        
+            ul {
+                display: none;
+                position: absolute;
+                justify-content: right;
         }
-        .menu li ul {
-            display: none;
-            position: absolute;
-            justify-content: right;
-         
         }
         .menu {
             display: flex;
@@ -52,7 +52,7 @@
             li{
                 list-style: none;
             a {
-                background-color: #d1ccc0;
+                background-color: $colorfondo;
             color: white;
             text-decoration: none;
             padding: 8px 10px;
@@ -60,7 +60,7 @@
             margin-bottom: 2px;
             margin-right: 3px;
             &:hover{
-                background-color: #235731;
+                background-color: $colorprincipal;
             }
             }
         }
@@ -97,9 +97,9 @@
         .flex-container {
             display: flex;
             justify-content: center;
-            background-color: #d1ccc0;
-            font-family: 'Cinzel', serif;
-            color: #235731;
+            background-color: $colorfondo;
+            font-family: $fuenteprincipal;
+            color: $colorprincipal;
             padding-bottom: 10px;
             padding-top: 10px;
             div {
@@ -118,7 +118,7 @@
             margin-top: 60px;
         }
         footer {
-            background: #d1ccc0;
+            background: $colorfondo;
             padding-left: 15px;
             padding-top: 12px;
             padding-bottom: 12px;
@@ -146,17 +146,17 @@
             
         }
         .parrafo {
-            font-family: 'Cinzel', serif;
+            font-family: $fuenteprincipal;
             font-size: 15px;
             text-align: center;
-            color: #235731;
+            color: $colorprincipal;
             margin-top: 50px;
             margin-bottom: 50px;
         }
         .producto {
-            font-family: 'Cinzel', serif;
-            color: #235731;
-            background-color: #d1ccc0;
+            font-family: $fuenteprincipal;
+            color: $colorprincipal;
+            background-color: $colorfondo;
             text-align: center;
             text-decoration-line: underline;
             padding: 1px;
@@ -172,7 +172,7 @@
         .maquinaescribir::after {
             content: "";
             border-left: 2px solid black;
-            background: #d1ccc0;
+            background: $colorfondo;
             right: 0;
             width: 100%;
             height: 100%;
@@ -224,7 +224,6 @@
         
         
         
-        
         @media only screen and (min-width: 929px) {
         
         * {
@@ -271,24 +270,24 @@
         .menu li{
             list-style: none;
             a {
-                background-color: #d1ccc0;
+                background-color: $colorfondo;
             color: white;
             text-decoration: none;
             padding: 8px 10px;
             display: block;
-            font-family: 'Cinzel', serif;
+            font-family: $fuenteprincipal;
             font-size: 13px;
             &:hover {
-                background-color: #235731;
+                background-color: $colorprincipal;
             }
             }
         }
         .menu > li {
             display: inline-block;
-        }
-        .menu li ul {
-            display: none;
-            position: absolute;
+            ul {
+                display: none;
+                position: absolute;
+            }
         }
         .menu li:hover > ul {
             display: block;
@@ -302,9 +301,9 @@
         .flex-container {
             display: flex;
             justify-content: center;
-            background-color: #d1ccc0;
-            font-family: 'Cinzel', serif;
-            color: #235731;
+            background-color: $colorfondo;
+            font-family: $fuenteprincipal;
+            color: $colorprincipal;
             div {
                 text-align: center;
             }
@@ -320,7 +319,7 @@
             margin-top: 60px;
         }
         footer {
-            background-color: #d1ccc0;
+            background-color: $colorfondo;
             padding-left: 15px;
             padding-top: 12px;
             padding-bottom: 12px;
@@ -345,17 +344,17 @@
             margin-top: 12px;
         }
         .parrafo {
-            font-family: 'Cinzel', serif;
+            font-family: $fuenteprincipal;
             font-size: 25px;
             text-align: center;
-            color: #235731;
+            color: $colorprincipal;
             margin-top: 50px;
             margin-bottom: 50px;
         }
         .producto {
-            font-family: 'Cinzel', serif;
-            color: #235731;
-            background-color: #d1ccc0;
+            font-family: $fuenteprincipal;
+            color: $colorprincipal;
+            background-color: $colorfondo;
             text-align: center;
             text-decoration-line: underline;
             margin-left: 375px;
@@ -382,7 +381,7 @@
         .maquinaescribir::after {
             content: "";
             border-left: 2px solid black; 
-            background: #d1ccc0;
+            background: $colorfondo;
             right: 0;
             width: 100%;
             height: 100%;
@@ -413,6 +412,4 @@
             grid-template-columns: 400px 400px;
             justify-content: center;
         }
-    } 
-        
-        
+    }

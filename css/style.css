@@ -41,8 +41,7 @@
   .menu > li {
     display: inline-block;
   }
-
-  .menu li ul {
+  .menu > li ul {
     display: none;
     position: absolute;
     justify-content: right;
@@ -326,8 +325,7 @@
   .menu > li {
     display: inline-block;
   }
-
-  .menu li ul {
+  .menu > li ul {
     display: none;
     position: absolute;
   }
