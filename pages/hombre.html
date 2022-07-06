@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+<link rel="search icon" href="../images/Iconos/logo.png"> 
 </head>
 <body>
   <header>
@@ -22,108 +23,140 @@
       </div>
       <div class="logo1"><img width="100px" src="../images/Iconos/logo.png" alt="..."></div>
     </div>
-      <nav class="navegacion">
-      <ul class="menu">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a class="general" href="../pages/mates.html">Mates</a>
-          <ul class="submenu m-0 p-0">
-            <li><a href="../pages/calabazavaqueta.html">Calabaza vaqueta</a></li>
-            <li><a href="../pages/calabazacuero.html">Calabaza cuero marrón</a></li>
-            <li><a href="../pages/calabazatrenzado.html">Calabaza trenzado</a></li>
-            <li><a href="../pages/poritocuero.html">Porito cuero marrón</a></li>
-            <li><a href="../pages/materas.html">Materas</a></li>
-          </ul>
-        </li>
-        <li><a class="general" href="../pages/accesorios.html">Accesorios</a>
-          <ul class="submenu m-0 p-0">
-            <li> <a href="../pages/billeteras.html">Billeteras</a> </li>
-            <li> <a href="../pages/llaveros.html">LLaveros</a> </li>
-            <li> <a href="../pages/cinturones.html">Cinturones</a> </li>
-          </ul>
-        </li>
-        <li><a class="general" href="../pages/indumentaria.html">Indumentaria</a>
-          <ul class="submenu m-0 p-0" >
-            <li> <a href="../pages/hombre.html">Hombre</a></li>
-            <li> <a href="../pages/mujer.html">Mujer</a></li>
-          </ul>        
-        </li>
-        <li><a class="general" href="../pages/cuchillos.html">Cuchillos</a>
-          <ul class="submenu m-0 p-0">
-            <li> <a href="../pages/acerocarbono.html"> Acero al carbono</a></li>
-            <li> <a href="../pages/aceroinox.html"> Acero inoxidable</a></li>
-          </ul>
-        </li>
-        <li><a href="../pages/agendas.html">Agendas</a></li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button type="button" class="btn btn-link"><img width="15px" src="../images/Iconos/lupa.png" alt="..."></button>
-        </form>
-      </div> 
-    </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="inicio">
+              <a class="nav-link active m-0" aria-current="page" href="../index.html">Inicio</a>
+            </div>
+           </li>
+          </ul>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mates
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/calabazavaqueta.html">Calabaza vaqueta</a></li>
+                <li><a class="dropdown-item" href="../pages/calabazacuero.html">Calabaza cuero marrón</a></li>
+                <li><a class="dropdown-item" href="../pages/calabazatrenzado.html">Calabaza trenzado</a></li>
+                <li><a class="dropdown-item" href="../pages/poritocuero.html">Porito cuero marrón</a></li>
+                <li><a class="dropdown-item" href="../pages/materas.html">Materas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Accesorios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/billeteras.html">Billeteras</a> </li>
+                <li><a class="dropdown-item" href="../pages/llaveros.html">LLaveros</a> </li>
+                <li><a class="dropdown-item" href="../pages/cinturones.html">Cinturones</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Indumentaria
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/hombre.html">Hombre</a></li>
+                <li><a class="dropdown-item" href="../pages/mujer.html">Mujer</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cuchillos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/acerocarbono.html"> Acero al carbono</a></li>
+                <li><a class="dropdown-item" href="../pages/aceroinox.html"> Acero inoxidable</a></li>
+              </ul>
+            </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/agendas.html">Agenda</a>
+              </li>
+            </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <div class="contac">
+                  <a class="nav-link active m-0" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                </div>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+               </div>
+              </div>
+             </nav>
   </header>
   <main>
     <section>
       <article>
         <div class="card-group">
           <div class="card">
-            <img class="unisex" src="../images/Hombre/camperaconcodera.jpg" class="card-img-top" alt="...">
+            <img class="unisex" src="../images/Hombre/camperaconcodera.jpg" class="card-img-top" alt="Campera con codera de punto">
             <div class="card-body">
-              <h5 class="card-title">Campera con codera de punto</h5>
+              <p class="card-title">Campera con codera de punto</p>
             </div>
           </div>
           <div class="card">
-            <img class="unisex" src="../images/Hombre/camperacuerohombros.jpg" class="card-img-top" alt="...">
+            <img class="unisex" src="../images/Hombre/camperacuerohombros.jpg" class="card-img-top" alt="Campera de cuero con hombros">
             <div class="card-body">
-              <h5 class="card-title">Campera de cuero con hombros</h5>
+              <p class="card-title">Campera de cuero con hombros</p>
             </div>
           </div>
           <div class="card">
-            <img class="unisex" src="../images/Hombre/camperadesagujada.jpg" class="card-img-top" alt="...">
+            <img class="unisex" src="../images/Hombre/camperadesagujada.jpg" class="card-img-top" alt="Campera desagujada">
             <div class="card-body">
-              <h5 class="card-title">Campera desagujada</h5>
-            </div>
-          </div>
-        </div>
-        <div class="card-group">
-          <div class="card">
-            <img class="unisex" src="../images/Hombre/camperalisabolsillos.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Campera lisa con bolsillos</h5>
-            </div>
-          </div>
-          <div class="card">
-            <img class="unisex" src="../images/Hombre/camperamediocierre.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Campera medio cierre con codera de punto</h5>
-            </div>
-          </div>
-          <div class="card">
-            <img class="unisex" src="../images/Hombre/polera.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Polera</h5>
+              <p class="card-title">Campera desagujada</p>
             </div>
           </div>
         </div>
         <div class="card-group">
           <div class="card">
-            <img class="unisex" src="../images/Hombre/bossacondetallefrizon.jpg" class="card-img-top" alt="...">
+            <img class="unisex" src="../images/Hombre/camperalisabolsillos.jpg" class="card-img-top" alt="Campera lisa con bolsillos">
             <div class="card-body">
-              <h5 class="card-title">Bossa con detalle</h5>
+              <p class="card-title">Campera lisa con bolsillos</p>
             </div>
           </div>
           <div class="card">
-            <img class="unisex" src="../images/Hombre/sweterlana.jpg" class="card-img-top" alt="...">
+            <img class="unisex" src="../images/Hombre/camperamediocierre.jpg" class="card-img-top" alt="Campera medio cierre con codera de punto">
             <div class="card-body">
-              <h5 class="card-title">Sweater E/V de lana merino patagónica manga larga</h5>
+              <p class="card-title">Campera medio cierre con codera de punto</p>
             </div>
           </div>
           <div class="card">
-            <img class="unisex" src="../images/Hombre/sweterverde.jpg" class="card-img-top" alt="...">
+            <img class="unisex" src="../images/Hombre/polera.jpg" class="card-img-top" alt="Polera">
             <div class="card-body">
-              <h5 class="card-title">Sweater E/V manga larga</h5>
+              <p class="card-title">Polera</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-group">
+          <div class="card">
+            <img class="unisex" src="../images/Hombre/bossacondetallefrizon.jpg" class="card-img-top" alt="Bossa con detalle">
+            <div class="card-body">
+              <p class="card-title">Bossa con detalle</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="unisex" src="../images/Hombre/sweterlana.jpg" class="card-img-top" alt="Sweater E/V de lana merino patagónica manga larga">
+            <div class="card-body">
+              <p class="card-title">Sweater E/V de lana merino patagónica manga larga</p>
+            </div>
+          </div>
+          <div class="card">
+            <img class="unisex" src="../images/Hombre/sweterverde.jpg" class="card-img-top" alt="Sweater E/V manga larga">
+            <div class="card-body">
+              <p class="card-title">Sweater E/V manga larga</p>
             </div>
           </div>
         </div>

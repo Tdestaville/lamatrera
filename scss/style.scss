@@ -7,94 +7,75 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
             margin:0px;
             padding: 0px;
     }
-        .navegacion {
-            letter-spacing: 3px;
-            text-align: left;
-            ul {
-                margin: 0;
-                padding: 0;
-                display: flex;
-            
-            li a {
-                display: block;
+    h1 {
+        font-size: 260%;
+        white-space: nowrap;
+    }
+    h2 {
+        font-size: 90%;
+        white-space: nowrap;
+        text-align: center;
+    }
+    h3 {
+        font-size: 20px;
+        padding-top: 5px;
+    }
+    .flex-container {
+        display: flex;
+        justify-content: center;
+        background-color: $colorfondo;
+        font-family: $fuenteprincipal;
+        color: $colorprincipal;
+        padding-bottom: 10px;
+        padding-top: 10px;
+            .logo1 {
+                @if $tamanologo <= 100px {
+                display: none;
             }
         }
+    }
+    
+    .container-fluid {
+        letter-spacing: 3px;
+        text-align: center;
+        list-style: none;
+        .navbar-toggler{
+            border:none;
+        a {
+            background-color: $colorfondo;
+            color: black;
+            padding: 8px 10px;
+            font-family: $fuenteprincipal;
+            font-size: 13px;
+            &:hover {
+                background-color: $colorprincipal;
+            }
         }
-        .general {
-            pointer-events: none;
-        }
-        .submenu {
-            z-index: 1;
-            li { 
-                display: inline-block;
-                margin-left: 180px;
-                width: 48%;
-            }    
-        
+    }
+}
+    .nav-item {
+             a {
+            background-color: $colorfondo;
+             color: black;
+             text-decoration: none;
+             padding: 8px 10px;
+            font-family: $fuenteprincipal;
+             font-size: 13px;
+            margin-top:8px;
+        &:hover {
+            background-color: $colorprincipal;
+            .dropdown-item{
+                text-decoration: none;
+                font-size: 10px; 
+                position: relative;
+             }
+            }
+         }
         }
         .card {
             border: none;
             .card-title {
                 text-align: center;
-            }
-        }
-        .menu > li {
-            display: inline-block;
-            ul {
-                display: none;
-                position: absolute;
-                justify-content: right;
-        }
-        }
-        .menu {
-            display: flex;
-            flex-direction: column;
-            width: 49.5%;
-            li{
-                list-style: none;
-            a {
-                background-color: $colorfondo;
-            color: white;
-            text-decoration: none;
-            padding: 8px 10px;
-            display: block;
-            margin-bottom: 2px;
-            margin-right: 3px;
-            &:hover{
-                background-color: $colorprincipal;
-            }
-            }
-        }
-        }
-        
-        .menu li:hover > ul {
-            display: block;
-        }
-        h1 {
-            font-size: 260%;
-            white-space: nowrap;
-        }
-        h2 {
-            font-size: 90%;
-            white-space: nowrap;
-            text-align: center;
-        }
-        h3 {
-            font-size: 20px;
-            padding-top: 5px;
-        }
-        .flex-container {
-            display: flex;
-            justify-content: center;
-            background-color: $colorfondo;
-            font-family: $fuenteprincipal;
-            color: $colorprincipal;
-            padding-bottom: 10px;
-            padding-top: 10px;
-                .logo1 {
-                    @if $tamanologo <= 100px {
-                    display: none;
-                }
             }
         }
         .logo img {
@@ -121,16 +102,7 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
             text-align: center;
             margin-top: 100px
         }
-        .contactanos {
-            display: inline-block;
-            text-align: center;
-            margin-left: 75px;
-            margin-top: 25px;
-            legend {
-                border: 1px solid black;
-            }
-           
-        }
+        
         .local {
             margin-top: 110px;
             margin-left: 30px;
@@ -157,13 +129,43 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
             padding: 1px;
             margin-top: 8px;
         }
-        
+        .maquinaescribir {
+            position: relative;
+            &::after {
+                content: "";
+            border-left: 2px solid black;
+            background: $colorfondo;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            animation: maquinaescribir 2s infinite alternate steps(26);
+            @keyframes maquinaescribir {
+                from {
+                    width: 100%;
+                }
+                to {
+                    width: 0;
+                }
+            }
+            }
+        }
         .unisex {
             width: $tamanounisex - 20px;
             margin-left: 90px;
         }
         .grid-contacto {
             display: inline-block;
+            .contactanos {
+                display: inline-block;
+                text-align: center;
+                margin-left: 75px;
+                margin-top: 25px;
+                legend {
+                    border: 1px solid black;
+                }
+               
+            }
         }
         .delantal {
             display: grid;
@@ -220,51 +222,35 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
            font-size: 20px;
            letter-spacing: 3px;
         }
-        .navegacion {
-            position: relative;
+        .container-fluid {
             letter-spacing: 3px;
-            text-align: center;
-            margin-bottom: 0px;
-            margin-top: 10px;
-        }
-        .d-flex {
-            width: 13%;
-            margin-left: 85%;
-        }
-        .btn-outline-success:hover {
-            background-color: white;
-        }
-        .menu li{
             list-style: none;
             a {
                 background-color: $colorfondo;
-            color: white;
-            text-decoration: none;
-            padding: 8px 10px;
-            display: block;
-            font-family: $fuenteprincipal;
-            font-size: 13px;
-            &:hover {
-                background-color: $colorprincipal;
-            }
-            }
-        }
-        .menu > li {
-            display: inline-block;
-            ul {
-                display: none;
-                position: absolute;
+                color: black;
+                list-style: none;
+                padding: 8px 10px;
+                font-family: $fuenteprincipal;
+                font-size: 13px;
+                &:hover {
+                    background-color: $colorprincipal;
+                }
             }
         }
-        .menu li:hover > ul {
-            display: block;
+        
+        .inicio{
+            margin-left: 259px;
+
         }
-        .submenu {
-            z-index: 1;
+        .contac{
+            margin-right: 50px;
         }
-        .general {
-            pointer-events: none;
-        }
+   .dropdown-item{
+          text-decoration: none;
+          font-size: 10px;
+          margin-top: 3px; 
+   }
+
         .flex-container {
             display: flex;
             justify-content: center;
@@ -274,6 +260,9 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
             div {
                 text-align: center;
             }
+        }
+        .d-flex{
+            width: 15%;
         }
     .logo {
         padding-top: 15px;
@@ -332,14 +321,16 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
             overflow:hidden;
             div {
                 margin: 50px;
-                .imgdelantal:hover {
-                    -webkit-transform: scale(1.3);transform:scale(1.3);
-                    .imgdelantal1:hover {
-                        -webkit-transform: scale(1.3);transform:scale(1.3);
-                    }
-            }
+                
         }
     }
+    .imgdelantal:hover {
+        -webkit-transform: scale(1.3);transform:scale(1.3);
+    }
+
+    .imgdelantal1:hover {
+        -webkit-transform: scale(1.3);transform:scale(1.3);
+        }
         .maquinaescribir {
             position: relative;
             &::after {

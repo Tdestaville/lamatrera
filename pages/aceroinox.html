@@ -11,7 +11,8 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+<link rel="search icon" href="../images/Iconos/logo.png">
 </head>
 <body>
   <header>
@@ -22,88 +23,120 @@
       </div>
       <div class="logo1"><img width="100px" src="../images/Iconos/logo.png" alt="..."></div>
     </div>
-      <nav class="navegacion">
-      <ul class="menu">
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a class="general" href="../pages/mates.html">Mates</a>
-          <ul class="submenu m-0 p-0">
-            <li><a href="../pages/calabazavaqueta.html">Calabaza vaqueta</a></li>
-            <li><a href="../pages/calabazacuero.html">Calabaza cuero marrón</a></li>
-            <li><a href="../pages/calabazatrenzado.html">Calabaza trenzado</a></li>
-            <li><a href="../pages/poritocuero.html">Porito cuero marrón</a></li>
-            <li><a href="../pages/materas.html">Materas</a></li>
-          </ul>
-        </li>
-        <li><a class="general" href="../pages/accesorios.html">Accesorios</a>
-          <ul class="submenu m-0 p-0">
-            <li> <a href="../pages/billeteras.html">Billeteras</a> </li>
-            <li> <a href="../pages/llaveros.html">LLaveros</a> </li>
-            <li> <a href="../pages/cinturones.html">Cinturones</a> </li>
-          </ul>
-        </li>
-        <li><a class="general" href="../pages/indumentaria.html">Indumentaria</a>
-          <ul class="submenu m-0 p-0">
-            <li> <a href="../pages/hombre.html">Hombre</a></li>
-            <li> <a href="../pages/mujer.html">Mujer</a></li>
-          </ul>        
-        </li>
-        <li><a class="general" href="../pages/cuchillos.html">Cuchillos</a>
-          <ul class="submenu m-0 p-0">
-            <li> <a href="../pages/acerocarbono.html"> Acero al carbono</a></li>
-            <li> <a href="../pages/aceroinox.html"> Acero inoxidable</a></li>
-          </ul>
-        </li>
-        <li><a href="../pages/agendas.html">Agendas</a></li>
-        <li><a href="../pages/contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
       <div class="container-fluid">
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
-          <button type="button" class="btn btn-link"><img width="15px" src="../images/Iconos/lupa.png" alt="..."></button>
-        </form>
-      </div> 
-    </nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <div class="inicio">
+              <a class="nav-link active m-0" aria-current="page" href="../index.html">Inicio</a>
+            </div>
+           </li>
+          </ul>
+          <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Mates
+              </a>
+              <ul class="dropdown-menu " aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/calabazavaqueta.html">Calabaza vaqueta</a></li>
+                <li><a class="dropdown-item" href="../pages/calabazacuero.html">Calabaza cuero marrón</a></li>
+                <li><a class="dropdown-item" href="../pages/calabazatrenzado.html">Calabaza trenzado</a></li>
+                <li><a class="dropdown-item" href="../pages/poritocuero.html">Porito cuero marrón</a></li>
+                <li><a class="dropdown-item" href="../pages/materas.html">Materas</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Accesorios
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/billeteras.html">Billeteras</a> </li>
+                <li><a class="dropdown-item" href="../pages/llaveros.html">LLaveros</a> </li>
+                <li><a class="dropdown-item" href="../pages/cinturones.html">Cinturones</a> </li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Indumentaria
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/hombre.html">Hombre</a></li>
+                <li><a class="dropdown-item" href="../pages/mujer.html">Mujer</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Cuchillos
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="../pages/acerocarbono.html"> Acero al carbono</a></li>
+                <li><a class="dropdown-item" href="../pages/aceroinox.html"> Acero inoxidable</a></li>
+              </ul>
+            </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="../pages/agendas.html">Agenda</a>
+              </li>
+            </ul>
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                  <div class="contac">
+                  <a class="nav-link active m-0" aria-current="page" href="../pages/contacto.html">Contacto</a>
+                </div>
+                </li>
+              </ul>
+              <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+               </div>
+              </div>
+             </nav>
   </header>
   <main>
   <section>
     <article>
       <div class="card-group">
         <div class="card">
-          <img src="../images/regionalinox14cm.png" class="card-img-top" alt="...">
+          <img src="../images/regionalinox14cm.png" class="card-img-top" alt="cuchillo">
           <div class="card-body">
-            <h5 class="card-title">Puñal Regional Ac.Inox 14cm</h5>
+            <p class="card-title">Puñal Regional Ac.Inox 14cm</p>
           </div>
         </div>
         <div class="card">
-          <img src="../images/tranzadoinox14cm.png" class="card-img-top" alt="...">
+          <img src="../images/tranzadoinox14cm.png" class="card-img-top" alt="cuchillo">
           <div class="card-body">
-            <h5 class="card-title">Puñal Trenzado Ac.Inox 14cm</h5>
+            <p class="card-title">Puñal Trenzado Ac.Inox 14cm</p>
           </div>
         </div>
         <div class="card">
-          <img width="350px" src="../images/maderaalpacainox14cm.png" class="card-img-top" alt="...">
+          <img width="350px" src="../images/maderaalpacainox14cm.png" class="card-img-top" alt="cuchillo">
           <div class="card-body">
-            <h5 class="card-title">Puñal Madera y Alpaca Ac.Inox 14cm</h5>
+            <p class="card-title">Puñal Madera y Alpaca Ac.Inox 14cm</p>
           </div>
         </div>
       </div>
       <div class="card-group">
         <div class="card">
-          <img src="../images/ciervoinox14cm.png" class="card-img-top" alt="...">
+          <img src="../images/ciervoinox14cm.png" class="card-img-top" alt="cuchillo">
           <div class="card-body">
-            <h5 class="card-title">Puñal Ciervo de volteo Ac.Inox 14cm</h5>
+            <p class="card-title">Puñal Ciervo de volteo Ac.Inox 14cm</p>
           </div>
         </div>
         <div class="card">
-          <img src="../images/faconalpaca14inox.png" class="card-img-top" alt="...">
+          <img src="../images/faconalpaca14inox.png" class="card-img-top" alt="cuchillo">
           <div class="card-body">
-            <h5 class="card-title">Facón Alpaca y Picaso Ac.Inox 14cm</h5>
+            <p class="card-title">Facón Alpaca y Picaso Ac.Inox 14cm</p>
           </div>
         </div>
         <div class="card">
-          <img width="350px" src="../images/puñaltrenzadofino14.png" class="card-img-top" alt="...">
+          <img width="350px" src="../images/puñaltrenzadofino14.png" class="card-img-top" alt="cuchillo">
           <div class="card-body">
-            <h5 class="card-title">Puñal Trenzado Fino Ac.Inox 14cm</h5>
+            <p class="card-title">Puñal Trenzado Fino Ac.Inox 14cm</p>
           </div>
         </div>
       </div>
