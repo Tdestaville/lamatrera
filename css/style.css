@@ -88,7 +88,7 @@
     background-image: url("../images/fondo1.jpg");
   }
   .fondo img {
-    width: 375px;
+    width: 360px;
   }
 
   #fotos {
@@ -402,6 +402,10 @@
     text-align: center;
   }
 
+  .card-group {
+    margin-top: 30px;
+  }
+
   .grid-contacto {
     display: grid;
     margin-top: 40px;
@@ -414,36 +418,5 @@
     margin-left: 50px;
     padding-bottom: 5px;
     border: solid 1px black;
-  }
-
-  .btn-redes {
-    text-align: center;
-  }
-  .btn-redes .redes {
-    color: black;
-  }
-
-  .insta {
-    display: none;
-  }
-
-  .facebook, .btn-form {
-    background-color: #3b5998;
-  }
-
-  .instagram {
-    background-color: #DD2A7B;
-  }
-
-  .whatsapp {
-    background-color: #00bb2b;
-  }
-
-  .btn-form {
-    background-color: #3b5998;
-  }
-
-  h5 {
-    text-decoration: underline;
   }
 }/*# sourceMappingURL=style.css.map */

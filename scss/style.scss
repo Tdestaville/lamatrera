@@ -1,7 +1,6 @@
 @import "colores";
 @import "fuentes";
 @import "medidas";
-$coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
 @media only screen and (min-width: 360px) and (max-width: 928px) {
     * {
             margin:0px;
@@ -87,7 +86,7 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
             margin-top: 12px;
             background-image: url("../images/fondo1.jpg");
             img {
-                width: 375px;
+                width: 360px;
             }
         }
         #fotos {
@@ -250,7 +249,7 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
           font-size: 10px;
           margin-top: 3px; 
    }
-
+   
         .flex-container {
             display: flex;
             justify-content: center;
@@ -315,6 +314,7 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
             margin-right: 375px;
             padding: 1px;
         }
+       
         .delantal{
             display: flex;
             justify-content: center;
@@ -363,6 +363,9 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
                 text-align: center;
             }
         }
+        .card-group {
+            margin-top: 30px;
+        }
         .grid-contacto {
             display: grid;
             margin-top: 40px;
@@ -376,28 +379,4 @@ $coloresredes: (facebook: #3b5998, instagram: #DD2A7B, whatsapp: #00bb2b);
                 border: solid 1px black;
             }
         }
-        .btn-redes {
-            text-align: center;
-            .redes {
-                color: black;
-            }
-        }
-        .insta {
-            display: none;
-        }
-        @each $red, $color in $coloresredes {
-            .#{$red} {
-                background-color: $color;
-            }
-            }
-            .btn-form{
-                @extend .facebook;
-                background-color: map-get($coloresredes, facebook);
-            }
-            @mixin subrayado {
-                text-decoration: underline;
-            }
-            h5 {
-                @include subrayado;
-            }
-            }
+    }
