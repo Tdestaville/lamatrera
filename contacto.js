@@ -1,0 +1,5 @@
+let nombreIngresado = prompt ("Ingresar nombre")
+let apellidoIngresado = prompt ("Ingresar apellido")
+let mailIngresado = prompt ("Ingresar mail")
+let telefonoIngresado = prompt ("Ingresar telefono")
+let mensajeIngresado = prompt ("Dejanos tu mensaje")
