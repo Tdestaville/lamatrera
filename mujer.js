@@ -62,6 +62,6 @@ const envio = () => {
         carrito['total'] += 1000
         alert("El costo de envío es de $1000, el total es " + carrito['total'])
     }
-}
+} 
 
 envio()

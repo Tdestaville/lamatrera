@@ -373,4 +373,23 @@
     padding-bottom: 5px;
     border: solid 1px black;
   }
+  .suscribite {
+    text-align:center;
+    margin-top: 40px;
+    font-family: "Cinzel", serif;
+    color: #235731;
+    background-color: #d1ccc0;
+    margin-left: 375px;
+    margin-right: 375px;
+}
+.contador {
+  width:40px;
+  margin-left: 170px;
+  display:flex;
+  margin-bottom:18px;
+}
+#contador {
+  margin-left: 190px;
+  font-size: 20px;
+}
 }/*# sourceMappingURL=style.css.map */
