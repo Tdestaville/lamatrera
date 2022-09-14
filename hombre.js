@@ -2,6 +2,7 @@ let contador = 0;
 let h2Contador = document.querySelector("#contador");
 h2Contador.innerHTML = contador;
 
+
 function incrementar () {
     contador +=1 ;
     let h2Contador = document.querySelector ("#contador");
@@ -12,3 +13,9 @@ function decrementar () {
     let h2Contador = document.querySelector ("#contador");
     h2Contador.innerHTML = contador;
 }
+
+let cards = document.querySelector(".card")
+console.log(cards)
+
+
+

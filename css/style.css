@@ -191,6 +191,16 @@
   .btn-redes {
     display: none;
   }
+  .btn-primary {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    margin-left: 110px;
+    text-align: center;
+    background-color: #235731;
+    color: white;
+    border: none;
+  }
 }
 @media only screen and (min-width: 929px) {
   * {
@@ -374,22 +384,38 @@
     border: solid 1px black;
   }
   .suscribite {
-    text-align:center;
+    text-align: center;
     margin-top: 40px;
     font-family: "Cinzel", serif;
     color: #235731;
     background-color: #d1ccc0;
     margin-left: 375px;
     margin-right: 375px;
-}
-.contador {
-  width:40px;
-  margin-left: 170px;
-  display:flex;
-  margin-bottom:18px;
-}
-#contador {
-  margin-left: 190px;
-  font-size: 20px;
-}
+  }
+  .suscribite p {
+    font-size: 25px;
+  }
+  .contador {
+    width: 40px;
+    margin-left: 170px;
+    display: flex;
+    margin-bottom: 18px;
+  }
+  #contador {
+    margin-left: 190px;
+    font-size: 20px;
+  }
+  .btn-primary {
+    display: flex;
+    align-items: center;
+    width: 33%;
+    margin-left: 140px;
+    text-align: center;
+    background-color: #235731;
+    color: white;
+    border: none;
+  }
+  .precio {
+    margin-left: 190px;
+  }
 }/*# sourceMappingURL=style.css.map */

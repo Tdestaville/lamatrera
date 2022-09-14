@@ -196,6 +196,17 @@
             display: none;
 
         }
+        .btn-primary {
+            display: flex;
+            align-items: center;
+          width: 33%;
+          margin-left: 110px;
+          text-align: center;
+          background-color: #235731;
+          color:white;
+          border:none
+         
+        }
     }
         
         
@@ -354,7 +365,6 @@
         }
         
         .unisex {
-            width: 200px;
             margin-left: 130px;
         }
         .card {
@@ -380,6 +390,29 @@
             }
         }
         .suscribite {
-            margin-left: 30px;
+            text-align:center;
+            margin-top: 40px;
+            font-family: "Cinzel", serif;
+            color: #235731;
+            background-color: #d1ccc0;
+            margin-left: 375px;
+            margin-right: 375px;
+            p {
+                font-size: 25px;
+            }
+        }
+        .btn-primary {
+            display: flex;
+            align-items: center;
+          width: 33%;
+          margin-left: 140px;
+          text-align: center;
+          background-color: #235731;
+          color:white;
+          border:none
+         
+        }
+        .precio {
+            margin-left: 190px;
         }
     }
