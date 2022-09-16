@@ -11,6 +11,7 @@ const enviarFormulario = (event) => {
         telefono.value,
         comentarios.value
     );
+   
 };
 
 form.addEventListener("submit" , enviarFormulario);
