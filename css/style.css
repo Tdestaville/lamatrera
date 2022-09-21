@@ -358,7 +358,6 @@
     }
   }
   .unisex {
-    width: 200px;
     margin-left: 130px;
   }
   .card {
@@ -394,16 +393,6 @@
   }
   .suscribite p {
     font-size: 25px;
-  }
-  .contador {
-    width: 40px;
-    margin-left: 170px;
-    display: flex;
-    margin-bottom: 18px;
-  }
-  #contador {
-    margin-left: 190px;
-    font-size: 20px;
   }
   .btn-primary {
     display: flex;

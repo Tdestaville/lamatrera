@@ -125,7 +125,7 @@ producto71,producto72,producto73,producto74,producto75,producto76,producto77,pro
 producto81,producto82,producto83,producto84,producto85,producto86,producto87,producto88,producto89];
 localStorage.setItem("arrayProductos",JSON.stringify(productos));
 
-let arrayParseado = JSON.parse(localStorage.getItem("arrayProductos"));
+let arrayParseado = JSON.parse(localStorage.getItem("arrayProductos"))|| []
 
 
 
