@@ -4,6 +4,13 @@ agregarAlcarrito.forEach ((añadir) => {
 });
 
 function tarjetaClick (event) {
+    Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Agregado  al carrito',
+        showConfirmButton: false,
+        timer: 1500
+      })
     const button = event.target;
     const card = button.closest (".card");
 
