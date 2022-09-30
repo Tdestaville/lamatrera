@@ -1,0 +1,34 @@
+{
+    "products":[
+        {
+            "name":"vaqueta azul",
+            "price":2368
+        },
+        {
+            "name":"vaqueta marron chocolate",
+            "price":2368
+        },
+        {
+            "name":"vaqueta fuccia",
+            "price":2368
+        },
+        {
+            "name":"vaqueta marron borgoña",
+            "price":2368
+        },
+        {
+            "name":"vaqueta negro",
+            "price":2368
+        },
+        {
+            "name":"vaqueta suela",
+            "price":2368
+        },
+        {
+            "name":"vaqueta suela",
+            "price":2368
+        }
+        
+        
+    ]
+}
